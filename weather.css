@@ -1,0 +1,99 @@
+body{
+    align-items: center;
+    justify-items: center;
+}
+main{
+    width:500px;
+    border: 1px  rgba(21, 154, 174, 0.915);
+    box-shadow: 4px 4px 4px rgba(21, 154, 174, 0.915);
+    background-image: linear-gradient(135deg, #5dcae8, #9de4f3d3,#bae9f29a);
+    border-radius: 12px;
+}
+.textbox{
+    height: auto;
+    width: 400px;
+    margin: 25px 25px 0px;
+    padding: 5px;
+    display: flex;
+
+}
+input{
+    height: 35px;
+    width: 250px;
+    margin: 25px 10px 25px 45px;
+    padding: 5px 5px;
+   border-color: transparent;
+    outline-color: rgba(6, 170, 240, 0.738);
+    border-radius: 15px;
+}
+input::placeholder{
+    text-indent: 15px;
+}
+button{
+    margin-top: 25px;
+    height: 45px;
+    width: 55px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+}
+.temperature{
+    padding: 0px 180px;
+}
+
+#cloud-condition{
+    margin: 0;
+    height: 100px ;
+    width: 100px;
+}
+#search-icon{
+    height: 35px ;
+    width: 35px;
+    filter: drop-shadow(5px 5px 5px red);
+}
+h1{
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.588)
+}
+#placename{
+    margin: 0;
+    padding: 0px 170px;
+    color: white;
+    font-size: 40px;
+}
+#humidity-image{
+    height: 50px;
+    width: 50px;
+}
+#windspeed-image{
+    height: 50x;
+    width: 50px;
+}
+.speed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.superscript{
+    position: absolute;
+    top: 45%;
+    color: white;
+    font-size: large;
+}
+.subscript{
+    position: relative;
+    top: 30%;
+    font-size: large;
+    color: white;
+}
+
+
+
+

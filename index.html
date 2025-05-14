@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link rel="icon"  href="assets/weather-app.png">
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <main>
+        <div class="textbox">
+            <input type="text" placeholder="Enter The City Name" id="inputvalue">
+            <button id="search-btn"><img src="assets/search (2).png" id="search-icon"></button>
+        </div>
+        <div class="temperature">
+        <img src="assets/weather-app.png" alt="image not found" id="cloud-condition">
+        <h1 id="temperature1">22</h1>
+        </div>
+        <div>
+            <p id="placename">NewYorK</p>
+            <div class="speed">
+                <div id="humidity-report">
+                <img src="assets/wind.png" id="humidity-image">
+                <sup class="superscript" id="superscript2">50%</sup>
+                <sub class="subscript">humidity</sub>
+                </div>
+                <div class="windspeed">
+                    <img src="assets/wind (2).png" id="windspeed-image">
+                    <sup class="superscript" id="superscript1">15Km/h</sup>
+                    <sub class="subscript">Wind Speed</sub>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="weather.js"></script>
+</body>
+</html>
